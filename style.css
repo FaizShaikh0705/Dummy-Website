@@ -2,6 +2,93 @@ body{
     font-family: 'Trebuchet MS';
 }
 
-.logo{
+.logo-main{
+    margin-left: 650px;
+}
 
+#logo{
+   border-radius: 50%;
+   width: 15%;
+}
+
+.option-list{
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+   margin-left: 20px;
+   margin-right: 60px; 
+}
+
+.header-option{
+  font-family: monospace;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.header-option li:hover{
+    color: coral;
+}
+
+.image1{
+    width:70%;
+    margin-left: 230px;
+    height: 600px;
+    margin-top: 20px;
+}
+
+.welcome-text{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: Geneva;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+.text-image{
+    float: right;
+    margin-right: 20px;
+}
+
+.about-us{
+    text-align: left;
+    margin: 0px 300px;
+}
+
+.read-more{
+    margin-left: 700px;
+    padding: 8px;
+    background-color: #84a59d;
+    font-size: 18px;
+}
+
+.read-more:hover{
+    background-color: #354f52;
+    color: #fff;
+}
+
+.read-btn{
+    margin-top: 50px;
+}
+
+.showcase{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: Geneva;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin-top: 50px;
+}
+
+.flex-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 170px;
+  margin-right: 80px;
+  margin-top: 60px;
+}
+
+.image-r{
+    border-radius: 50%;
 }
