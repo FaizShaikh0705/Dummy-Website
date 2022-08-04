@@ -72,6 +72,10 @@ body{
     margin-top: 50px;
 }
 
+.read-btn input{
+    cursor: pointer;
+}
+
 .showcase{
     font-size: 35px;
     text-transform: uppercase;
@@ -107,4 +111,85 @@ body{
 .history-text{
     text-align: left;
     margin: 0px 150px;
+}
+
+.footer{
+    display: flex;
+    justify-content:space-between;
+    width: 70%;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color:#424041;
+    position: absolute;
+    height: 60px;
+}
+
+#footer-container{
+    color: #fff;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#footer-button{
+    margin-top: 10px;
+    margin-right: 70px;
+}
+
+#footer-button input{
+    padding: 10px;
+    background-color: #25c4ec;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#footer-button input:hover{
+    background-color: #044a3c;
+}
+
+.footer-menu{
+display: flex;
+justify-content: space-between;
+width: 70%;
+margin-left: 250px;
+margin-right: 250px;
+padding-top: 150px;
+height: 300px;
+color: #fff;
+}
+
+.footer-main{
+    background-color: #353535 
+}
+
+#font-1{
+    text-transform: capitalize;
+}
+
+.footer-tittle{
+    text-align:justify;
+}
+
+ul{
+    list-style-position: outside;
+    list-style: none;
+    padding-left: 0px;
+    text-transform: capitalize;
+    line-height:1.5;
+    cursor: pointer;
+}
+
+.fa-brands{
+    background-color: #fff;
+    padding: 8px;
+    color: #000;
+    
+}
+
+.fa-brands:hover{
+    background-color: #811712;
+}
+
+#copy-rights{
+    text-align: center;
+    color: #fff;
 }
