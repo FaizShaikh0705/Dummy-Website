@@ -27,6 +27,7 @@ body{
 
 .header-option li:hover{
     color: coral;
+    cursor: pointer;
 }
 
 .image1{
@@ -84,11 +85,26 @@ body{
 .flex-container{
   display: grid;
   grid-template-columns: auto auto auto;
-  margin-left: 170px;
-  margin-right: 80px;
-  margin-top: 60px;
+  margin-left: 220px;
+  margin-right: 120px;
+  margin-top: 80px;
 }
 
 .image-r{
     border-radius: 50%;
+}
+
+.history-main{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: Geneva;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin-top: 50px; 
+}
+
+.history-text{
+    text-align: left;
+    margin: 0px 150px;
 }
